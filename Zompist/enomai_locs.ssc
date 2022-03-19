@@ -98,6 +98,11 @@ Location "Kalimantan" "Enomai/Almea" {
 	Size			150
 	Type			"MA" # Macula - using this as a proxy for forest
 }
+Location "Nasuael" "Enomai/Almea" {
+	LongLat			[-47 -34 0]
+	Size			85
+	Type			"PA" # Palus - swamp
+}
 Location "Žésifo" "Enomai/Almea" {
 	LongLat			[-45.7 -37.3 0]
 	Size			15
