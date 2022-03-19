@@ -81,6 +81,11 @@ Location "Dheknam" "Enomai/Almea" {
 }
 # regions of Eretald
 # http://www.almeopedia.com/allo/Eretald-CP-Big.jpg
+Location "Flora" "Enomai/Almea" {
+	LongLat			[-44.5 -31.4 0]
+	Size			100
+	Type			"IN"
+}
 Location "Kebri" "Enomai/Almea" {
 	LongLat			[-41 -30 0]
 	Size			300
