@@ -81,15 +81,15 @@ Location "Dheknam" "Enomai/Almea" {
 }
 # regions of Eretald
 # http://www.almeopedia.com/allo/Eretald-CP-Big.jpg
-Location "Žésifon" "Enomai/Almea" {
+Location "Žésifo" "Enomai/Almea" {
 	LongLat			[-45.7 -37.3 0]
 	Size			15
-	Type			"Capital"
+	Type			"City"
 }
 Location "Verduria City" "Enomai/Almea" {
 	LongLat			[-45.4 -33.24 0]
 	Size			15
-	Type			"Capital"
+	Type			"City"
 }
 Location "Flora" "Enomai/Almea" {
 	LongLat			[-44.5 -31.4 0]
