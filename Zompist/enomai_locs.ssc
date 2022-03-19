@@ -83,6 +83,11 @@ Location "Dheknam" "Enomai/Almea" {
 # http://www.almeopedia.com/allo/Eretald-CP-Big.jpg
 # LOCALLY, IN THAT IMAGE:
 # ~200 px / degree vertical AND horizontal
+Location "Bérunor" "Enomai/Almea" {
+	LongLat			[-52.3 -37.0 0]
+	Size			45
+	Type			"LC"
+}
 Location "Žésifo" "Enomai/Almea" {
 	LongLat			[-45.7 -37.3 0]
 	Size			15
@@ -97,6 +102,11 @@ Location "Flora" "Enomai/Almea" {
 	LongLat			[-44.5 -31.4 0]
 	Size			100
 	Type			"IN"
+}
+Location "Como" "Enomai/Almea" {
+	LongLat			[-43.7 -39.7 0]
+	Size			15
+	Type			"LC"
 }
 Location "Kebri" "Enomai/Almea" {
 	LongLat			[-41 -30 0]
