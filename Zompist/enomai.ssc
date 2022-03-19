@@ -2,7 +2,7 @@
 "Vereon:Enomai I" "Enomai"
 {
 	Texture "mercury.*"
-	Radius 2500
+	Radius 2900 # appx http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
 
 	EllipticalOrbit
@@ -22,7 +22,7 @@
 "Išire:Isire:Enomai II" "Enomai"
 {
 	Texture "mercury.*"
-	Radius 2500
+	Radius 6000
 	Class "planet"
 
 	EllipticalOrbit
@@ -42,7 +42,7 @@
 "Almea:Namei III" "Enomai"
 {
 	Texture "almea.ctx"
-	Radius 6400
+	Radius 5320 # http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
 
 	Atmosphere {
@@ -79,7 +79,7 @@
 "Vlerëi:Vlerei:Enomai IV" "Enomai"
 {
 	Texture "mercury.*"
-	Radius 2500
+	Radius 4700 # appx http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
 
 	EllipticalOrbit
