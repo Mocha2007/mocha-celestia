@@ -1,0 +1,7 @@
+VirtualTexture
+{
+        ImageDirectory "Almea"
+        BaseSplit 0
+        TileSize 256
+        TileType "png"
+}
