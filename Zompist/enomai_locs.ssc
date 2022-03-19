@@ -3,7 +3,7 @@
 # continents
 Location "Ereláe" "Enomai/Almea" {
 	LongLat			[-90 -20 0]
-	Size			5000 # radius, km, appx.
+	Size			5000 # diameter (allegedly radius), km, appx.
 	Type			"TA"
 }
 Location "Lebiscuri" "Enomai/Almea" {
@@ -95,7 +95,7 @@ Location "Funky" "Enomai/Almea" {
 }
 Location "Kalimantan" "Enomai/Almea" {
 	LongLat			[-49 -38 0]
-	Size			75
+	Size			150
 	Type			"MA" # Macula - using this as a proxy for forest
 }
 Location "Žésifo" "Enomai/Almea" {
