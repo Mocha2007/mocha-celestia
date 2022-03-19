@@ -16,7 +16,7 @@
 	Period		2741.76	# 1:1
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=vereon"
-	Albedo            0.5
+	Albedo            0.2
 }
 
 "Išire:Isire:Enomai II" "Enomai"
@@ -36,7 +36,7 @@
 	Period		5361.12	# 1:1
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?I%u0161ira"
-	Albedo            0.5
+	Albedo            0.2
 }
 
 "Almea:Namei III" "Enomai"
@@ -93,5 +93,65 @@
 	Period		29
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?Vler%EBi"
+	Albedo            0.7
+}
+
+"Hírumor:Hirumor:Enomai V" "Enomai"
+{
+	Texture "hirumor.*"
+	Radius 60000 # a gas giant; but smaller than Imiri
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period			8.885 # 9.7 almean years
+	SemiMajorAxis	4.290
+	}
+
+	UniformRotation
+	{
+	Period		10
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
+	Albedo            0.5
+}
+
+"Imiri:Enomai VI" "Enomai"
+{
+	Texture "hirumor.*"
+	Radius 70000 # "the largest"
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period			21.80 # 23.8 almean years
+	SemiMajorAxis	7.805
+	}
+
+	UniformRotation
+	{
+	Period		10
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?Imiri"
+	Albedo            0.5
+}
+
+"Caiem:Enomai VII" "Enomai"
+{
+	Texture "saturn.*"
+	Radius 60000 # see Hirumor
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period			56.79 # 62 almean years
+	SemiMajorAxis	14.78
+	}
+
+	UniformRotation
+	{
+	Period		10
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?Caiem"
 	Albedo            0.5
 }
