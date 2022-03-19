@@ -1,0 +1,341 @@
+#https://ssd.jpl.nasa.gov/sbdb.cgi
+#http://www.csgnetwork.com/juliandatetime.html
+"(474640) 2004 VN112:2004 VN112" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	157
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				5601
+		SemiMajorAxis		315
+		Eccentricity		0.850
+		Inclination			25.593
+		AscendingNode		65.982
+		ArgOfPericenter		326.99
+		MeanAnomaly			0.52
+	}
+
+	Albedo 0.04
+}
+
+"2007 TG422" "Sol" {
+
+	Class	"asteroid" 
+	Texture "asteroid.jpg"
+	Radius	171.5
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				10937
+		SemiMajorAxis		493
+		Eccentricity		0.92779
+		Inclination			18.587
+		AscendingNode		112.95
+		ArgOfPericenter		285.80
+		MeanAnomaly			0.33542
+	}
+
+	Albedo 0.04
+}
+
+"2009 MS9" "Sol" {
+
+	Class	"asteroid" 
+	Texture "asteroid.jpg"
+	Radius	45
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				6481.05
+		SemiMajorAxis		347.6
+		Eccentricity		0.96835
+		Inclination			68.056
+		AscendingNode		220.226
+		ArgOfPericenter		128.675
+		MeanAnomaly			0.16189
+	}
+
+	Albedo 0.04
+}
+
+"2010 BK118" "Sol" {
+
+	Class	"asteroid" 
+	Texture "asteroid.jpg"
+	Radius	35
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				10665
+		SemiMajorAxis		484.5
+		Eccentricity		0.98741
+		Inclination			143.913
+		AscendingNode		176.01
+		ArgOfPericenter		179.06
+		MeanAnomaly			0.12498
+	}
+
+	Albedo 0.08
+}
+
+"2010 GB174" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	111.5
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				6600
+		SemiMajorAxis		371
+		Eccentricity		0.869
+		Inclination			21.54
+		AscendingNode		130.6
+		ArgOfPericenter		347.8
+		MeanAnomaly			3.22
+	}
+
+	Albedo 0.08
+}
+
+"(336756) 2010 NV1:2010 NV1" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	22.1
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				5429.66
+		SemiMajorAxis		308.92
+		Eccentricity		0.9696
+		Inclination			140.78
+		AscendingNode		136.17
+		ArgOfPericenter		132.76
+		MeanAnomaly			0.4463
+	}
+
+	Albedo 0.057
+}
+
+"2012 DR30:2009 FW54" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	92.5
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				63734
+		SemiMajorAxis		1595
+		Eccentricity		0.9909
+		Inclination			77.96646
+		AscendingNode		341.4155
+		ArgOfPericenter		195.5316
+		MeanAnomaly			0.036
+	}
+
+	Albedo 0.08
+}
+
+"2012 VP113" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	225
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				4175.54
+		SemiMajorAxis		265.8
+		Eccentricity		0.6896
+		Inclination			24.047
+		AscendingNode		90.818
+		ArgOfPericenter		293.72
+		MeanAnomaly			3.2115
+	}
+
+	Albedo 0.1
+}
+
+"2013 BL76" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	17.5
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				35496
+		SemiMajorAxis		1080.07
+		Eccentricity		0.9923
+		Inclination			98.613
+		AscendingNode		180.20
+		ArgOfPericenter		165.96
+		MeanAnomaly			0.0493
+	}
+
+	Albedo 0.08
+}
+
+"2013 FT28" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	125
+
+	EllipticalOrbit {
+		Epoch				2457600.5	# 31 Jul 2016
+		Period				3460
+		SemiMajorAxis		312
+		Eccentricity		0.86
+		Inclination			17.3
+		AscendingNode		217.7
+		ArgOfPericenter		40.2
+		MeanAnomaly			357.15
+	}
+
+	Albedo 0.04
+}
+
+"2013 RF98" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	85
+
+	EllipticalOrbit {
+		Epoch				2457800.5	# 16 Feb 2017
+		Period				6527
+		SemiMajorAxis		349
+		Eccentricity		0.897
+		Inclination			29.572
+		AscendingNode		67.596
+		ArgOfPericenter		311.8
+		MeanAnomaly			0.404
+	}
+
+	Albedo 0.04
+}
+
+"2013 SY99" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	125
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				17455.2
+		SemiMajorAxis		672.9
+		Eccentricity		0.926
+		Inclination			4.234
+		AscendingNode		29.473
+		ArgOfPericenter		32.325
+		MeanAnomaly			359.226
+	}
+
+	Albedo 0.04
+}
+
+"2014 FE72" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	135
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				78698
+		SemiMajorAxis		1836
+		Eccentricity		0.98
+		Inclination			20.62
+		AscendingNode		336.8
+		ArgOfPericenter		134
+		MeanAnomaly			0.24
+	}
+
+	Albedo 0.08
+}
+
+"2014 SR349" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	100
+
+	EllipticalOrbit {
+		Epoch				2457800.5	# 16 Feb 2017
+		Period				4981
+		SemiMajorAxis		292
+		Eccentricity		0.8369
+		Inclination			17.98
+		AscendingNode		34.75
+		ArgOfPericenter		341.35
+		MeanAnomaly			357.3
+	}
+
+	Albedo 0.04
+}
+
+"2015 GT50" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	100
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				6140
+		SemiMajorAxis		335.169
+		Eccentricity		0.885
+		Inclination			8.779
+		AscendingNode		46.100
+		ArgOfPericenter		129.236
+		MeanAnomaly			1.02
+	}
+
+	Albedo 0.04
+}
+
+"2015 KG163" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	100
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				23070
+		SemiMajorAxis		810.3928346
+		Eccentricity		0.9500160
+		Inclination			13.96663
+		AscendingNode		219.05839
+		ArgOfPericenter		31.98756
+		MeanAnomaly			359.926
+	}
+
+	Albedo 0.04
+}
+
+"2015 RX245" "Sol" {
+
+	Class	"asteroid" 
+	Texture	"asteroid.jpg"
+	Radius	125
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				8920
+		SemiMajorAxis		430
+		Eccentricity		0.89
+		Inclination			12.2
+		AscendingNode		8.6
+		ArgOfPericenter		65.4
+		MeanAnomaly			357.9
+	}
+
+	Albedo 0.04
+}

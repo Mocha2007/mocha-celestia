@@ -1,0 +1,34 @@
+Vertex shader source:
+  1: #version 110
+  2: uniform vec3 light0_direction;
+  3: uniform vec3 light0_diffuse;
+  4: uniform vec3 eyePosition;
+  5: varying vec2 diffTexCoord;
+  6: uniform float textureOffset;
+  7: uniform vec3 ambientColor;
+  8: uniform float opacity;
+  9: varying vec4 diff;
+ 10: 
+ 11: void main(void)
+ 12: {
+ 13: float NL;
+ 14: diff = vec4(ambientColor, opacity);
+ 15: NL = max(0.0, dot(gl_Normal, light0_direction));
+ 16: diff.rgb += light0_diffuse * NL;
+ 17: diffTexCoord = gl_MultiTexCoord0.st + vec2(textureOffset, 0.0);
+ 18: gl_Position = ftransform();
+ 19: }
+
+Fragment shader source:
+  1: #version 110
+  2: uniform sampler2D diffTex;
+  3: varying vec2 diffTexCoord;
+  4: varying vec4 diff;
+  5: 
+  6: void main(void)
+  7: {
+  8: vec4 color;
+  9: color = texture2D(diffTex, diffTexCoord.st);
+ 10: gl_FragColor = color * diff;
+ 11: }
+

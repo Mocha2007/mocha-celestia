@@ -1,0 +1,8 @@
+"Kerbol"
+{
+	RA 250.5
+	Dec -25.460317
+	Distance 13
+	SpectralType "K9V" #Mass is 0.00826448964464988225 Solar Masses (Y6), Change to K if too red
+	AppMag 8.75
+}

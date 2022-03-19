@@ -1,0 +1,8 @@
+{
+	seturl {
+		url "cel://Follow/Sol/2017-08-05T15:42:45.70115?x=AAAo2LzV6YnC/////////w&y=AACUh5EUds5Q&z=AADwBtY1PqyQ&ow=0.952204&ox=0.229669&oy=0.194867&oz=0.0508534&select=Sol&fov=25.0245&ts=1&ltd=0&p=0&rf=4054967&lm=12326&tsrc=0&ver=3"
+	}
+	timerate {
+		rate 1000000
+	}
+}

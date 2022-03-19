@@ -1,0 +1,40 @@
+"Rama" "Sol"
+{
+	Class		"Spacecraft"
+	#Texture		"asteroid.jpg"
+	Radius		16 # roughly same volume as the cylinder
+	Albedo		0.9
+	InfoURL		"https://en.wikipedia.org/wiki/Rendezvous_with_Rama"
+
+	EllipticalOrbit
+	{
+	Epoch "2131 1 1 00:00:00"
+	Period			.01 #1000 # guess https://www.classe.cornell.edu/~seb/celestia/orbital-parameters.html
+	PericenterDistance	.01 # guess
+	Eccentricity	1.2 #.9999 # i have to, sorry
+	Inclination		10
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	UniformRotation
+	{
+	    Period			0.06666666666666666666666666666667
+	}
+}
+"Test" "Sol/Rama"
+{
+	Class		"Spacecraft"
+	#Texture		"asteroid.jpg"
+	Radius		16
+	Albedo		0.9
+
+	EllipticalOrbit
+	{
+	Epoch "2018 4 27 00:00:00"
+	Period			.01
+	PericenterDistance	10000
+	Eccentricity	1.2
+	}
+}

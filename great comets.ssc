@@ -1,0 +1,268 @@
+#https://ssd.jpl.nasa.gov/sbdb.cgi
+#http://www.csgnetwork.com/juliandatetime.html
+"Caesar's Comet:C/-43 K1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		10      # guess
+	   
+	EllipticalOrbit {
+		Epoch				1705496.5		# 25 May -43
+		Period				3952874
+		SemiMajorAxis		25000.112
+		Eccentricity		0.9999910400401405
+		Inclination			110
+		AscendingNode		170
+		ArgOfPericenter		17
+		MeanAnomaly			0
+	}
+
+	Albedo		0.2      # guess
+}
+"Kirch's Comet:C/1680 V1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2335000.5		# 29 Nov 1680
+		Period				9356
+		SemiMajorAxis		444
+		Eccentricity		0.999986
+		Inclination			60.7
+		AscendingNode		276.6339
+		ArgOfPericenter		350.6128
+		MeanAnomaly			359.99795
+	}
+
+	Albedo		0.2      # guess
+}
+"Great Comet of 1811:C/1811 F1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2382760.5		# 5 Sep 1811
+		Period				3095
+		SemiMajorAxis		212.3922051
+		Eccentricity		0.995125
+		Inclination			106.9342
+		AscendingNode		143.0497
+		ArgOfPericenter		65.4097
+		MeanAnomaly			359.9975303
+	}
+
+	Albedo		0.2      # guess
+}
+"Great Comet of 1843:C/1843 D1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2394259.411		# 27 Feb 1843
+		Period				513
+		SemiMajorAxis		64.2674419
+		Eccentricity		0.999914
+		Inclination			144.3548
+		AscendingNode		3.5272
+		ArgOfPericenter		82.6390
+		MeanAnomaly			0
+	}
+
+	Albedo		0.2      # guess
+}
+"Donati:C/1858 L1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2399960.5		# 8 Oct 1858
+		Period				1951
+		SemiMajorAxis		156.1319838	
+		Eccentricity		0.996295
+		Inclination			116.9512
+		AscendingNode		167.3044
+		ArgOfPericenter		129.1144
+		MeanAnomaly			0.0038070
+	}
+
+	Albedo		0.2      # guess
+}
+"Great Comet of 1861:C/1861 J1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2400920.5		# 25 May 1861
+		Period				409
+		SemiMajorAxis		55.0826524
+		Eccentricity		0.985070
+		Inclination			85.4424
+		AscendingNode		280.9099
+		ArgOfPericenter		330.0841
+		MeanAnomaly			359.9565871
+	}
+
+	Albedo		0.2      # guess
+}
+"Coggia:C/1874 H1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2405720.5 		# 16 Jul 1874
+		Period				13705
+		SemiMajorAxis		572.6966102
+		Eccentricity		0.998820
+		Inclination			66.3439
+		AscendingNode		120.4950
+		ArgOfPericenter		152.3804
+		MeanAnomaly			0.0004776
+	}
+
+	Albedo		0.2      # guess
+}
+"Great Comet of 1882:C/1882 R1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2408709.5 		# 21 Sep 1882
+		Period				672
+		SemiMajorAxis		76.7326733
+		Eccentricity		0.999899
+		Inclination			142.0112
+		AscendingNode		347.6563
+		ArgOfPericenter		69.5843
+		MeanAnomaly			0.0048036
+	}
+
+	Albedo		0.2      # guess
+}
+"Great Comet of 1910:C/1910 A1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2418680.5		# 9 Jan 1910
+		Period				4142889
+		SemiMajorAxis		25795
+		Eccentricity		0.999995
+		Inclination			138.7812
+		AscendingNode		90.0354
+		ArgOfPericenter		320.9122
+		MeanAnomaly			359.999998
+	}
+
+	Albedo		0.2      # guess
+}
+"Skjellerup-Maristany:C/1927 X1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2425240.5		# 26 Dec 1927
+		Period				36532
+		SemiMajorAxis		1100.9812500
+		Eccentricity		0.999840
+		Inclination			85.1126
+		AscendingNode		78.2436
+		ArgOfPericenter		47.1588
+		MeanAnomaly			0.0002110
+	}
+
+	Albedo		0.2      # guess
+}
+"Wilk:C/1937 D1 Wilk" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2428600.5
+		Period				187
+		SemiMajorAxis		32.7445244
+		Eccentricity		0.981098
+		Inclination			26.0205
+		AscendingNode		58.2580
+		ArgOfPericenter		31.4751
+		MeanAnomaly			0.0760924
+	}
+
+	Albedo		0.2      # guess
+}
+"Ikeya-Seki:C/1965 S1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2439040.5		# 7 Oct 1965
+		Period				877
+		SemiMajorAxis		91.6
+		Eccentricity		0.999915
+		Inclination			141.8642
+		AscendingNode		346.9947
+		ArgOfPericenter		69.0486
+		MeanAnomaly			359.984054
+	}
+
+	Albedo		0.2      # guess
+}
+"West:C/1975 V1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2442840.5		# 3 Mar 1976
+		Period				558296
+		SemiMajorAxis		6780.2068966
+		Eccentricity		0.999915
+		Inclination			43.0664
+		AscendingNode		118.9240
+		ArgOfPericenter		358.4270
+		MeanAnomaly			0.0000120
+	}
+
+	Albedo		0.2      # guess
+}
+"Hyakutake:C/1996 B2" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		2.1
+	   
+	EllipticalOrbit {
+		Epoch				2450158.5		# 16 Mar 1996
+		Period				108302
+		SemiMajorAxis		2272.079439771763
+		Eccentricity		.9998986702212276
+		Inclination			124.9226625944912
+		AscendingNode		188.0452284985425
+		ArgOfPericenter		130.1740835084622
+		MeanAnomaly			359.9995777871475
+	}
+
+	Albedo		0.2      # guess
+}

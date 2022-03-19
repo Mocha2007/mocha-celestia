@@ -1,0 +1,59 @@
+Location "Anchorage" "Sol/Earth" {
+	LongLat			[-149.9 61.1 0]
+	Importance		200
+	Type			"City"
+}
+
+Location "Juneau" "Sol/Earth" {
+	LongLat			[-134.7 58.4 0]
+	Importance		200
+	Type			"City"
+}
+
+Location "Los Angeles" "Sol/Earth" {
+	LongLat			[-118.2 34.1 0]
+	Importance		500
+	Type			"City"
+}
+
+Location "Portland" "Sol/Earth" {
+	LongLat			[-122.8 45.5 0]
+	Importance		300
+	Type			"City"
+}
+
+Location "Québec City" "Sol/Earth" {
+	LongLat			[-71.5 46.8 0]
+	Importance		300
+	Type			"City"
+}
+
+Location "San Diego" "Sol/Earth" {
+	LongLat			[-117.2 32.7 0]
+	Importance		400
+	Type			"City"
+}
+
+Location "San Francisco" "Sol/Earth" {
+	LongLat			[-122.4 37.8 0]
+	Importance		350
+	Type			"City"
+}
+
+Location "Seattle" "Sol/Earth" {
+	LongLat			[-122.5 47.6 0]
+	Importance		300
+	Type			"City"
+}
+
+Location "Toronto" "Sol/Earth" {
+	LongLat			[-79.5 43.7 0]
+	Importance		300
+	Type			"City"
+}
+
+Location "Vancouver" "Sol/Earth" {
+	LongLat			[-123.2 49.3 0]
+	Importance		300
+	Type			"City"
+}

@@ -1,0 +1,4 @@
+{
+	select { object "Kerbol" }
+	goto { time 0 distance 2000 upframe "ecliptical" }
+}

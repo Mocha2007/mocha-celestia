@@ -1,0 +1,256 @@
+#2010
+"S/2010 J 1" "Sol/Jupiter"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		0.5
+
+	EllipticalOrbit
+	{
+	Period			724.34
+	SemiMajorAxis	23314335
+	Eccentricity	0.32
+	Inclination		163.2
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+"S/2010 J 2" "Sol/Jupiter"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		0.5
+
+	EllipticalOrbit
+	{
+	Period			588.82
+	SemiMajorAxis	20307150
+	Eccentricity	0.307
+	Inclination		150.4
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+#2011
+"Kerberos" "Sol/Pluto"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	SemiAxes	[ 19 10 9 ]
+
+	EllipticalOrbit
+	{
+	Period			32.16756
+	SemiMajorAxis	57783
+	Eccentricity	0.00328
+	Inclination		0.389
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+"S/2011 J 1" "Sol/Jupiter"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		0.5
+
+	EllipticalOrbit
+	{
+	Period			582.22
+	SemiMajorAxis	20155290
+	Eccentricity	0.2963
+	Inclination		162.83
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+"S/2011 J 2" "Sol/Jupiter"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		2
+
+	EllipticalOrbit
+	{
+	Period			725.06
+	SemiMajorAxis	23329710
+	Eccentricity	0.3867
+	Inclination		151.85
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+#2012 & Beyond
+"Styx" "Sol/Pluto"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	SemiAxes	[ 16 9 8 ]
+
+	EllipticalOrbit
+	{
+	Period			20.16155
+	SemiMajorAxis	42656
+	Eccentricity	0.005787
+	Inclination		0.809
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+"S/2004 N 1" "Sol/Neptune"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		10
+
+	EllipticalOrbit
+	{
+	Period			0.9362
+	SemiMajorAxis	105283
+	Eccentricity	0
+	Inclination		0
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+
+"S/2016 J 1" "Sol/Jupiter"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		0.5
+
+	EllipticalOrbit
+	{
+	Period			603.83
+	SemiMajorAxis	20595483
+	Eccentricity	0.1377
+	Inclination		139.839
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+
+"S/2017 J 1" "Sol/Jupiter"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		1
+
+	EllipticalOrbit
+	{
+	Period			734.15
+	SemiMajorAxis	23329710
+	Eccentricity	0.3969
+	Inclination		149.197
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+
+"S/2009 S 1" "Sol/Saturn"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		0.15
+
+	EllipticalOrbit
+	{
+	Period			0.47
+	SemiMajorAxis	117000
+	Eccentricity	0
+	Inclination		0
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.061
+}
+
+"MK2:S/2015 (136472) 1" "Sol/13672 Makemake"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		87.5
+
+	EllipticalOrbit
+	{
+	Period			12.4
+	SemiMajorAxis	21000
+	Eccentricity	0	#Unk
+	Inclination		0	#Unk
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.1
+}
+
+"Weywot" "Sol/50000 Quaoar"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		40.5
+
+	EllipticalOrbit
+	{
+	Period			12.438
+	SemiMajorAxis	14500
+	Eccentricity	0.14
+	Inclination		14
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.1
+}
+
+"S/2012 (38628) 1" "Sol/38628 Huya"
+{
+	Class		"minormoon"
+	Texture		"asteroid.jpg"
+	Radius		106.5
+
+	EllipticalOrbit
+	{
+	Period			12.438
+	SemiMajorAxis	1800
+	Eccentricity	0.14
+	Inclination		14
+	AscendingNode	0	#Unk
+	ArgOfPericenter	0	#Unk
+	MeanAnomaly		0	#Unk
+	}
+
+	Albedo 0.1
+}

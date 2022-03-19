@@ -1,0 +1,148 @@
+#https://ssd.jpl.nasa.gov/sbdb.cgi
+#http://www.csgnetwork.com/juliandatetime.html
+"2002 MS4:2002 MS4" "Sol" {
+
+	Class "dwarfplanet" 
+	Texture "asteroid.jpg" 
+	Radius  467
+
+	EllipticalOrbit {
+		Epoch				2457800.5	# 16 Feb 2017
+		Period				271
+		SemiMajorAxis		41.87689427889687
+		Eccentricity		.1408422664228341
+		Inclination			17.66800765620919
+		AscendingNode		215.9044835077773
+		ArgOfPericenter		214.6409947940235
+		MeanAnomaly			219.3376653898615
+	}
+
+	Albedo 0.051
+}
+
+"120347 Salacia:2004 SB60:Salacia" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	427
+
+	EllipticalOrbit {
+		Epoch				2457800.5	# 16 Feb 2017
+		Period				270.98
+		SemiMajorAxis		41.874
+		Eccentricity		0.1099
+		Inclination			23.930
+		AscendingNode		280.04
+		ArgOfPericenter		308.48
+		MeanAnomaly			122.66
+	}
+
+	UniformRotation
+	{
+	    Period			6.09
+	}
+
+	Albedo 0.044
+}
+
+#https://ssd.jpl.nasa.gov/sbdb.cgi
+#http://www.csgnetwork.com/juliandatetime.html
+"Actaea" "Sol/120347 Salacia" {
+
+	Class	"moon" 
+	Texture	"asteroid.jpg"
+	Radius	151.5
+
+	EllipticalOrbit {
+		Period				5.49380
+		SemiMajorAxis		5619
+		Eccentricity		0.0084
+	}
+
+	Albedo 0.035
+}
+
+"2005 RN43:(145452) 2005 RN43" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	339.5
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				265.99
+		SemiMajorAxis		41.359
+		Eccentricity		0.019047
+		Inclination			19.313
+		AscendingNode		186.93
+		ArgOfPericenter		174.88
+		MeanAnomaly			338.28
+	}
+
+	Albedo 0.08
+}
+
+"2005 UQ513:(202421) 2005 UQ513" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	249
+
+	EllipticalOrbit {
+		Epoch				2457800.5	# 4 Sep 2017
+		Period				283.44
+		SemiMajorAxis		43.14898373914571
+		Eccentricity		0.1499476184861664
+		Inclination			25.71760183847004
+		AscendingNode		307.7365291777895
+		ArgOfPericenter		222.8063849864661
+		MeanAnomaly			224.9950211985195
+	}
+
+	UniformRotation
+	{
+	    Period			7.03
+	}
+
+	Albedo 0.08
+}
+
+"2013 FY27" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	390
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				452.65
+		SemiMajorAxis		58.9529
+		Eccentricity		0.38836
+		Inclination			32.9890
+		AscendingNode		187.1719
+		ArgOfPericenter		139.623
+		MeanAnomaly			209.4711
+	}
+
+	Albedo 0.15
+}
+
+"2014 UZ224" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	317.5
+
+	EllipticalOrbit {
+		Epoch				2457600.5	# 31 Jul 2016
+		Period				1136.42
+		SemiMajorAxis		108.9
+		Eccentricity		0.65136
+		Inclination			26.7851
+		AscendingNode		131.1421
+		ArgOfPericenter		29.5472
+		MeanAnomaly			320.2683
+	}
+
+	Albedo 0.131
+}

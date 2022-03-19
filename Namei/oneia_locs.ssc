@@ -1,0 +1,89 @@
+Location "Eremor" "Namei/Oneia" {
+	LongLat			[-14.208 23.235 0]
+	Size			150
+	Type			"City"
+}
+
+Location "Deftei" "Namei/Oneia" {
+	LongLat			[-12.5 24.5 0]
+	Size			50
+	Type			"City"
+}
+
+Location "Inora" "Namei/Oneia" {
+	LongLat			[-12.9 24.9 0]
+	Size			50
+	Type			"City"
+}
+
+Location "Mur" "Namei/Oneia" {
+	LongLat			[-17.2 26 0]
+	Size			50
+	Type			"City"
+}
+
+Location "South Sea" "Namei/Oneia" {
+	LongLat			[-20 18 0]
+	Size			2500
+	Type			"ME"
+}
+
+Location "Akkahan" "Namei/Oneia" {
+	LongLat			[-14.05 23.1 0]
+	Size			63
+	Type			"ME"
+}
+
+Location "Pankair" "Namei/Oneia" {
+	LongLat			[-15 30 0]
+	Size			3000
+	Type			"TA"
+}
+
+Location "Himur" "Namei/Oneia" {
+	LongLat			[-10 30 0]
+	Size			2000
+	Type			"DO"
+}
+
+Location "Atter" "Namei/Oneia" {
+	LongLat			[-23 33 0]
+	Size			1000
+	Type			"DO"
+}
+
+Location "Ora" "Namei/Oneia" {
+	LongLat			[-13 60 0]
+	Size			1200
+	Type			"TA"
+}
+
+Location "Kaznuk" "Namei/Oneia" {
+	LongLat			[-126 32 0]
+	Size			1400
+	Type			"TA"
+}
+
+Location "Neko" "Namei/Oneia" {
+	LongLat			[-116 41 0]
+	Size			500
+	Type			"TA"
+}
+
+Location "Miwa" "Namei/Oneia" {
+	LongLat			[-107 45 0]
+	Size			500
+	Type			"TA"
+}
+
+Location "Laxei" "Namei/Oneia" {
+	LongLat			[25 52 0]
+	Size			1000
+	Type			"TA"
+}
+
+Location "Nizhind" "Namei/Oneia" {
+	LongLat			[5 0 0]
+	Size			3000
+	Type			"TA"
+}

@@ -1,0 +1,13 @@
+{
+	select{
+		object "Namei/Oneia"
+	}
+	gotolonglat{
+		time 0 
+		distance 1.1
+		longitude -12.5
+		latitude 24.5
+	}
+	follow{}
+	synchronous{}
+}

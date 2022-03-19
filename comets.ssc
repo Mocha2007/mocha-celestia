@@ -1,0 +1,300 @@
+"Encke:2P/Encke" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		3		# guess
+	   
+	EllipticalOrbit {
+		Epoch				2457840.5		# 28 Mar 2017
+		Period				3.30
+		SemiMajorAxis		2.2147269
+		Eccentricity		0.8483356
+		Inclination			11.77818
+		AscendingNode		334.55954
+		ArgOfPericenter		186.56347
+		MeanAnomaly			0 				# ?
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Thatcher:C/1861 G1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		13
+	   
+	EllipticalOrbit {
+		Epoch				2400920.5		# 25 May 1861
+		Period				415
+		SemiMajorAxis		55.6818869
+		Eccentricity		0.983465
+		Inclination			79.7733
+		AscendingNode		31.8674
+		ArgOfPericenter		213.4496
+		MeanAnomaly			359.9765402
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Swift–Tuttle:P/1862 O1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		13
+	   
+	EllipticalOrbit {
+		Epoch				2450000.5		# 10 Oct 1995
+		Period				133.28
+		SemiMajorAxis		26.0920694978266
+		Eccentricity		0.963225755046038
+		Inclination			113.453816997171
+		AscendingNode		139.3811920815948
+		ArgOfPericenter		152.9821676305871
+		MeanAnomaly			7.631696167124212
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Brooks:C/1911 O1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2419320.5		# 11 Oct 1911
+		Period				2089
+		SemiMajorAxis		163.4153589
+		Eccentricity		0.997005
+		Inclination			33.8095
+		AscendingNode		294.2071
+		ArgOfPericenter		153.0045
+		MeanAnomaly			359.9918675
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Ryves:C/1931 P1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2426560.5		# 7 Aug 1931
+		Period				1172
+		SemiMajorAxis		111.1632047
+		Eccentricity		0.999326
+		Inclination			169.2881
+		AscendingNode		102.2776
+		ArgOfPericenter		168.1455
+		MeanAnomaly			359.9840958
+	}
+
+	Albedo		0.2      # guess
+}
+
+"C/1948 V1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2426560.5		# 7 Aug 1931
+		Period				95095
+		SemiMajorAxis		2083.4
+		Eccentricity		0.999935
+		Inclination			23.1170
+		AscendingNode		211.0395
+		ArgOfPericenter		107.2521
+		MeanAnomaly			359.9998816
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Humason:C/1961 R1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2438000.5		# 2 Dec 1962
+		Period				2925
+		SemiMajorAxis		204.5261241
+		Eccentricity		0.989569
+		Inclination			153.2780
+		AscendingNode		155.4385
+		ArgOfPericenter		233.5552
+		MeanAnomaly			359.9972352
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Pereya:C/1963 R1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2438280.5		# 8 Sep 1963
+		Period				908
+		SemiMajorAxis		93.7962963
+		Eccentricity		0.999915
+		Inclination			144.5821
+		AscendingNode		7.9393
+		ArgOfPericenter		86.1601
+		MeanAnomaly			0.0163221
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Bennett:C/1969 Y1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2440680.5		# 4 Apr 1970
+		Period				1678
+		SemiMajorAxis		141.2151300
+		Eccentricity		0.996193
+		Inclination			90.0394
+		AscendingNode		224.6574
+		ArgOfPericenter		354.1460
+		MeanAnomaly			0.0087838
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Kobayashi:P/1997 B1" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2450506.5		# 27 Feb 1997
+		Period				25.17
+		SemiMajorAxis		8.587964450249036
+		Eccentricity		.7607636982815168
+		Inclination			12.34951889496333
+		AscendingNode		329.064102242387
+		ArgOfPericenter		183.3408070924741
+		MeanAnomaly			359.8688567841036
+	}
+
+	Albedo		0.2      # guess
+}
+
+"C/2001 OG108" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		6.8
+	   
+	EllipticalOrbit {
+		Epoch				2452248.5		# 5 Dec 2001
+		Period				48.5
+		SemiMajorAxis		13.29995428610206
+		Eccentricity		.9252593010411703
+		Inclination			80.24505504971198
+		AscendingNode		10.55529569918225
+		ArgOfPericenter		116.4195120718172
+		MeanAnomaly			357.9637887371742
+	}
+
+	Albedo		0.054
+}
+
+"Sheppard-Trujillo:C/2014 F3" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2456949.5		# 21 Apr 2015
+		Period				64.45
+		SemiMajorAxis		16.07492909108202
+		Eccentricity		.6440621790013146
+		Inclination			6.483105249990355
+		AscendingNode		327.5658635422279
+		ArgOfPericenter		1.302017207281829
+		MeanAnomaly			322.9011615620252
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Borisov:C/2014 Q3" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2456949.5		# 21 Apr 2015
+		Period				151.64
+		SemiMajorAxis		28.43599483988032
+		Eccentricity		.942066109189322
+		Inclination			89.94888391628815
+		AscendingNode		63.12952382129158
+		ArgOfPericenter		47.38085359039041
+		MeanAnomaly			359.7980671565338
+	}
+
+	Albedo		0.2      # guess
+}
+
+"SWAN-XingMing:C/2015 F5" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				2457133.5		# 21 Apr 2015
+		Period				60.85
+		SemiMajorAxis		15.47075653971312
+		Eccentricity		.9776355273044856
+		Inclination			149.2590285451703
+		AscendingNode		287.7365667846381
+		ArgOfPericenter		13.3839479627594
+		MeanAnomaly			0.387145510352612
+	}
+
+	Albedo		0.2      # guess
+}
+
+"Kowalski:C/2016 Q4" "Sol" {
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		1      # guess
+	   
+	EllipticalOrbit {
+		Epoch				 2457635.5		# 4 Sep 2016
+		Period				68.81
+		SemiMajorAxis		16.79100699510476
+		Eccentricity		.5781110907152989
+		Inclination			7.256661138649034
+		AscendingNode		271.3284458093447
+		ArgOfPericenter		99.48408811906481
+		MeanAnomaly			352.6752885810275
+	}
+
+	Albedo		0.2      # guess
+}
+#https://en.wikipedia.org/wiki/List_of_near-parabolic_comets

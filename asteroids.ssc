@@ -1,0 +1,107 @@
+"10 Hygiea" "Sol" {
+	Class		"asteroid"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	SemiAxes	[ 530 407 370 ]
+	   
+	EllipticalOrbit {
+		Epoch				2457200.5		# 27 Jun 2015
+		Period				5.57
+		SemiMajorAxis		3.1421
+		Eccentricity		0.1146
+		Inclination			3.8377
+		AscendingNode		283.41
+		ArgOfPericenter		312.10
+		MeanAnomaly			264.46
+	}
+	
+	UniformRotation {
+		Period				27.623
+	}
+
+	Albedo		0.0717
+}
+
+"1221 Amor" "Sol" {
+	Class		"asteroid"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		.5
+	   
+	EllipticalOrbit {
+		Epoch				2457600.5		# 31 Jul 2016
+		Period				2.66
+		SemiMajorAxis		1.9192
+		Eccentricity		0.43554
+		Inclination			11.880
+		AscendingNode		171.346
+		ArgOfPericenter		26.647
+		MeanAnomaly			239.60
+	}
+
+	Albedo		0.2
+}
+
+"1862 Apollo" "Sol" {
+	Class		"asteroid"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		.75
+	   
+	EllipticalOrbit {
+		Epoch				2455194.5		# 29 Dec 2009
+		Period				1.78
+		SemiMajorAxis		1.4702
+		Eccentricity		0.55994
+		Inclination			6.3530
+		AscendingNode		35.739
+		ArgOfPericenter		285.85
+		MeanAnomaly			144.22
+	}
+
+	Albedo		0.2
+}
+
+"2062 Aten" "Sol" {
+	Class		"asteroid"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		0.65
+	   
+	EllipticalOrbit {
+		Epoch				2455926.5		# 31 Dec 2011
+		Period				0.95
+		SemiMajorAxis		0.9668
+		Eccentricity		0.1827
+		Inclination			18.934
+		AscendingNode		108.60
+		ArgOfPericenter		148.04
+		MeanAnomaly			172.27
+	}
+	
+	UniformRotation {
+		Period				27.623
+	}
+
+	Albedo		0.2
+}
+
+"2005 HC4" "Sol" {
+	Class		"asteroid"
+	Mesh		"roughsphere.cms"
+	Texture		"asteroid.jpg"
+	Radius		.345
+	   
+	EllipticalOrbit {
+		Epoch				2453493.5		# 3 May 2005
+		Period				2.46
+		SemiMajorAxis		1.8207
+		Eccentricity		0.96119
+		Inclination			8.3967
+		AscendingNode		63.790
+		ArgOfPericenter		309.01
+		MeanAnomaly			341.42
+	}
+
+	Albedo		0.15      # guess
+}

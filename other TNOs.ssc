@@ -1,0 +1,21 @@
+#https://ssd.jpl.nasa.gov/sbdb.cgi
+#http://www.csgnetwork.com/juliandatetime.html
+"1992 QB1:(15760) 1992 QB1" "Sol" {
+
+	Class "asteroid" 
+	Texture "asteroid.jpg" 
+	Radius  83.5
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				289.68
+		SemiMajorAxis		43.7798
+		Eccentricity		0.065888
+		Inclination			2.19059
+		AscendingNode		359.4924
+		ArgOfPericenter		2.73215
+		MeanAnomaly			26.9869
+	}
+
+	Albedo 0.2
+}

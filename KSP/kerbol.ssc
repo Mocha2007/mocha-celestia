@@ -1,0 +1,388 @@
+"Moho" "Kerbol"
+{
+	Texture "moho.*"
+	Radius 250
+	Class "planet"
+	
+	EllipticalOrbit
+	{
+	Period		0.0703310
+	SemiMajorAxis	0.035180982
+	Inclination	7
+	Eccentricity	0.2
+	LongOfPericenter 15
+	AscendingNode    70
+	}
+	
+	UniformRotation
+	{
+	Period		336.11111111111
+	}
+
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Moho"
+	Albedo            0.06
+}
+
+"Eve" "Kerbol"
+{
+	Texture "eve.*"
+	Radius 700
+	Class "planet"
+	#Varies from 46 Arcseconds to 14 Arcseconds as viewed from kerbin, in comparison, Minmus is 509 Arcseconds.
+
+	Atmosphere {
+	Height 90
+	Mie 0.001
+	MieAsymmetry -0.25
+	Rayleigh [0.006 0.0025 0.006]
+	MieScaleHeight 10
+	}
+
+	EllipticalOrbit
+	{
+	Period		0.179608
+	SemiMajorAxis	0.0657295452
+	Inclination	2.1
+	Eccentricity	0.01
+	LongOfPericenter 0
+	AscendingNode    15
+	}
+
+	UniformRotation
+	{
+	Period		22.3611
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Eve"
+	Albedo            0.77
+}
+
+"Gilly" "Kerbol/Eve"
+{
+	Texture "gilly.*"
+	Mesh "puck.3ds"
+	Radius   13
+	Class "minormoon"
+
+	EllipticalOrbit
+	{
+	Period		4.49743
+	SemiMajorAxis	31500
+	Inclination	12
+	Eccentricity	0.55
+	LongOfPericenter 10
+	AscendingNode    80
+	}
+
+	UniformRotation
+	{
+	Period		7.849
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Gilly"
+	Albedo           0.1
+}
+
+"Kerbin" "Kerbol"
+{
+	Texture "kerbin.*"
+	Radius 600
+	Class "planet"
+
+	Atmosphere {
+	Height 70
+	Mie 0.001
+	MieAsymmetry -0.25
+	Rayleigh [0.001 0.0025 0.006]
+	MieScaleHeight 6.91
+	}
+
+	EllipticalOrbit
+	{
+	Period		0.29009334092618145446846412744304
+	SemiMajorAxis	0.0909092385
+	}
+
+	UniformRotation
+	{
+	Period		6
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Kerbin"
+	Albedo            0.3
+}
+
+"Mun" "Kerbol/Kerbin"
+{
+	Texture "mun.*"
+	Radius   200
+
+	EllipticalOrbit
+	{
+	Period		1.608599537037037037037037037037
+	SemiMajorAxis	12000
+	MeanLongitude   306
+	}
+
+	UniformRotation
+	{
+	Period		38.606388888888888888888888888889
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Mun"
+	Albedo           0.12
+}
+
+"Minmus" "Kerbol/Kerbin"
+{
+	Texture "minmus.*"
+	Radius   60
+
+	EllipticalOrbit
+	{
+	Period		12.469664351851851851851851851852
+	SemiMajorAxis	47000
+	Inclination	6
+
+	AscendingNode		78
+	LongOfPericenter	38
+	MeanLongitude		51.6
+	}
+
+	UniformRotation
+	{
+	Period		11.22
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Minmus"
+	Albedo           0.12
+}
+
+"Duna" "Kerbol"
+{
+	Texture "duna.*"
+	Radius 320
+	Class "planet"
+	
+	EllipticalOrbit
+	{
+	Period		0.501589
+	SemiMajorAxis	0.130349449
+	Inclination	.06
+	AscendingNode		135.5
+	}
+
+	Atmosphere {
+	Height 50
+	Mie 0.001
+	MieAsymmetry -0.25
+	Rayleigh [0.006 0.0025 0.001]
+	MieScaleHeight 4.1
+	}
+
+	UniformRotation
+	{
+	Period	18.26853
+	}
+
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Duna"
+	Albedo            0.15
+}
+
+"Ike" "Kerbol/Duna"
+{
+	Texture "ike.*"
+	Radius   150
+
+	EllipticalOrbit
+	{
+	Period		72.2
+	SemiMajorAxis	3200
+	Inclination	.2
+	Eccentricity	.03
+	}
+
+	UniformRotation
+	{
+	Period		38.606388888888888888888888888889
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Ike"
+	Albedo           0.12
+}
+
+"Dres" "Kerbol"
+{
+	Texture "dres.*"
+	Radius   138
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period		1.5176395860268207975257941034806
+	SemiMajorAxis	.273
+	Inclination		5
+	Eccentricity	0.14
+	LongOfPericenter 90
+	AscendingNode    280
+	#Need mean anomaly...
+	}
+
+	UniformRotation
+	{
+	Period		9.6666666666
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Dres"
+	Albedo           0.09
+}
+#ALL TEXTURES ABOVE ARE FINISHED
+"Jool" "Kerbol"
+{
+	Texture "jool.*"
+	Radius 6000
+
+	EllipticalOrbit
+	{
+	Period		3.3223
+	SemiMajorAxis	0.45973
+	Inclination	1.304
+	Eccenticity	0.005
+	LongOfPericenter 52
+	AscendingNode    52
+	}
+
+	Atmosphere {
+	Height 138.2
+	Mie 0.001
+	MieAsymmetry -0.25
+	Rayleigh [0.001 0.006 0.001]
+	MieScaleHeight 13.82
+	}
+
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Jool"
+	Albedo            0.3
+}
+
+"Laythe" "Kerbol/Jool"
+{
+	Texture "laythe.*"
+	Radius   200
+
+	EllipticalOrbit
+	{
+	Period		0.61458333333333333333333333333333
+	SemiMajorAxis	27184
+	}
+
+	Atmosphere {
+	Height 50
+	Mie 0.001
+	MieAsymmetry -0.25
+	Rayleigh [0.001 0.0025 0.006]
+	MieScaleHeight 5
+	}
+
+	UniformRotation
+	{
+	Period		14.75
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Laythe"
+	Albedo           0.1
+}
+
+"Vall" "Kerbol/Jool"
+{
+	Texture "vall.png"
+	Radius   300
+
+	EllipticalOrbit
+	{
+	Period		1.2291666666666666666666666666667
+	SemiMajorAxis	43152
+	}
+
+	UniformRotation
+	{
+	Period		29.5
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Vall"
+	Albedo           0.1
+}
+
+"Tylo" "Kerbol/Jool"
+{
+	Texture "tylo.png"
+	Radius   606.31
+
+	EllipticalOrbit
+	{
+	Period		2.4583333333333333333333333333333
+	SemiMajorAxis	68500
+	Inclination	0.025
+	}
+
+	UniformRotation
+	{
+	Period		59
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Tylo"
+	Albedo           0.1
+}
+
+"Bop" "Kerbol/Jool"
+{
+	Texture "bop.*"
+	Mesh "puck.3ds"
+	Radius   65
+	Class "minormoon"
+
+	EllipticalOrbit
+	{
+	Period		6.3021643518518518518518518518519
+	SemiMajorAxis	128500
+	Inclination	15
+	Eccentricity	0.24
+	}
+
+	UniformRotation
+	{
+	Period		240
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Bop"
+	Albedo           0.1
+}
+
+"Pol" "Kerbol/Jool"
+{
+	Texture "pol.*"
+	Mesh "puck.3ds"
+	Radius   44
+	Class "minormoon"
+
+	EllipticalOrbit
+	{
+	Period		10.43869212962962962962962962963
+	SemiMajorAxis	179890
+	Inclination	4.25
+	Eccentricity	0.17
+	}
+
+	UniformRotation
+	{
+	Period		240
+	}
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Pol"
+	Albedo           0.5
+}
+
+"Eeloo" "Kerbol"
+{
+	Texture "eeloo.*"
+	Radius   210
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period			4.9748799567207884969372200458397
+	SemiMajorAxis	.6024
+	Inclination		6.15
+	Eccentricity	0.26
+	}
+
+	InfoURL "http://kspwiki.nexisonline.net/wiki/Eeloo"
+	Albedo           0.9
+}

@@ -1,0 +1,33 @@
+"Planet Nine" "Sol"
+{
+	Texture "9.*"
+	Color		[.75 .8 1]
+	HazeColor	[.55 .9 .9]
+	HazeDensity	.275
+	Radius		19000	#Est. based on similar (8 earth mass) exoplanets
+
+	EllipticalOrbit
+	{
+	   Period			16725
+	   SemiMajorAxis	654 #https://en.wikipedia.org/wiki/Planet_Nine#Optimal_orbit_if_objects_are_in_strong_resonances
+	   Eccentricity		.6
+	   Inclination		30
+	   AscendingNode	94
+	   LongOfPericenter	235 # +/- 12
+       MeanLongitude	-17	#? "The favored location of Planet Nine is a right ascension of 30° to 50° and a declination of −20° to 20°."
+	}
+
+	Atmosphere {
+		Height			130
+		Mie				.001
+		MieAsymmetry	-.25
+		Rayleigh		[.004 .0048 .006]
+		MieScaleHeight	20
+	}
+
+	UniformRotation
+	{
+	    Period			18
+	}
+	Albedo            .45
+}

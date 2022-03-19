@@ -1,0 +1,247 @@
+#Inner Asteroid Belt
+"23 Fustai:Namei S23" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 24.33#0.02433
+	Class "asteroid"
+	Color [1.071 0.870 0.593]
+
+	EllipticalOrbit
+	{
+	Period			0.0447904
+	SemiMajorAxis	.116
+	Eccentricity    0.0551022
+	Inclination     0.635641
+	AscendingNode   -41.5075
+	ArgOfPericenter -165.443
+	MeanAnomaly     82.2906
+	}
+
+	UniformRotation
+	{
+	Period		392.64
+	Inclination	1
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.2
+}
+
+"37 Gosti:Namei S37" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 66.8355
+	Class "asteroid"
+	Color [0.794 0.612 0.406]
+
+	EllipticalOrbit
+	{
+	Period			0.0794642
+	SemiMajorAxis	.17
+	Eccentricity    0.0490948
+	Inclination     4.6082
+	AscendingNode   32.7898
+	ArgOfPericenter 12.8821
+	MeanAnomaly     -106.79
+	}
+
+	UniformRotation
+	{
+	Period		696.595
+	Inclination	9
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.2
+}
+
+"87 Bausi:Namei S87" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 20.6434
+	Class "asteroid"
+	Color [1.020 0.927 0.741]
+
+	EllipticalOrbit
+	{
+	Period			0.0430641
+	SemiMajorAxis	.113
+	Eccentricity    0.0252128
+	Inclination     5.66378
+	AscendingNode   91.1571
+	ArgOfPericenter -36.0224
+	MeanAnomaly     160.887
+	}
+
+	UniformRotation
+	{
+	Period		377.507
+	Inclination	8
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.2
+}
+
+#Outer Asteroid Belt - made up
+"1 Lusi" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 315
+	Class "asteroid"
+	Color [1 0.9 0.6]
+
+	EllipticalOrbit
+	{
+	Period			0.654031
+	SemiMajorAxis	0.693
+	Eccentricity    0.08
+	Inclination     10
+	AscendingNode   80
+	ArgOfPericenter 73
+	MeanAnomaly     96
+	}
+
+	UniformRotation
+	{
+	Period		9.07417
+	Inclination	4
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.1
+}
+
+"2 Soki" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 128
+	Class "asteroid"
+	Color [1 0.9 0.6]
+
+	EllipticalOrbit
+	{
+	Period			0.729008
+	SemiMajorAxis	0.745
+	Eccentricity    0.3557046979865772
+	Inclination     6.35641
+	AscendingNode   -165.443
+	ArgOfPericenter 82.2906
+	MeanAnomaly     -41.5075
+	}
+
+	UniformRotation
+	{
+	Period		355.03333333333333333333333333333#18:1
+	Inclination	1
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.2
+}
+
+#RS 0-8-7691375-8-0-8-16555867-8 C1
+"Na'un's Comet:Namei C30" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 6.18 #81.46 too unrealistic
+	Class "comet"
+
+	EllipticalOrbit
+	{
+	Period			84.639
+	SemiMajorAxis	17.73093
+	Eccentricity	0.993
+	Inclination		-104
+	AscendingNode	49
+	ArgOfPericenter	-86
+	MeanAnomaly		22
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.05
+}
+
+"Millennium Comet:Namei C62" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 26 #50.25 too unrealistic
+	Class "comet"
+
+	EllipticalOrbit
+	{
+	Period			178.582
+	SemiMajorAxis	29.1671
+	Eccentricity	0.995
+	Inclination		126
+	AscendingNode	-78
+	ArgOfPericenter	80
+	MeanAnomaly		114
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.05
+}
+
+"Stjork's Comet:Namei C74" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 13 #111.59 too unrealistic
+	Class "comet"
+
+	EllipticalOrbit
+	{
+	Period			86.717
+	SemiMajorAxis	18.01928
+	Eccentricity	0.99
+	Inclination		-17
+	AscendingNode	116
+	ArgOfPericenter	118
+	MeanAnomaly		155
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.05
+}
+
+"Oikhurt's Comet:Namei C121" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 0.02028
+	Class "comet"
+
+	EllipticalOrbit
+	{
+	Period			178.755
+	SemiMajorAxis	29.1859
+	Eccentricity	0.9995 #.995 too little
+	Inclination		5
+	AscendingNode	-114
+	ArgOfPericenter	35
+	MeanAnomaly		-71
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.05
+}
+
+"Nwarb's Comet:Namei C182" "Namei"
+{
+	Texture "asteroid.*"
+	Radius 25.12
+	Class "comet"
+
+	EllipticalOrbit
+	{
+	Period			50.643
+	SemiMajorAxis	12.58967
+	Eccentricity	0.983
+	Inclination		0.1135
+	AscendingNode	11
+	ArgOfPericenter	120
+	MeanAnomaly		14
+	}
+
+	InfoURL "http://mocha2007.github.io/namei.html#Namei"
+	Albedo            0.05
+}
