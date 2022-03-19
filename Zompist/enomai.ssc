@@ -1,0 +1,77 @@
+# Pure speculation...
+"Vereon:Enomai I" "Enomai"
+{
+	Texture "mercury.*"
+	Radius 2500
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period			0.31 # 112 almean days
+	SemiMajorAxis	0.46
+	}
+
+	UniformRotation
+	{
+	Period		2741.76	# 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=vereon"
+	Albedo            0.5
+}
+
+"Išire:Isire:Enomai II" "Enomai"
+{
+	Texture "mercury.*"
+	Radius 2500
+	Class "planet"
+
+	EllipticalOrbit
+	{
+	Period			0.61 # 219 almean days
+	SemiMajorAxis	0.72
+	}
+
+	UniformRotation
+	{
+	Period		5361.12	# 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?I%u0161ira"
+	Albedo            0.5
+}
+
+"Almea:Namei III" "Enomai"
+{
+	Texture "almea.ctx"
+	Radius 6400
+	Class "planet"
+
+	Atmosphere {
+	Height 100
+	Mie 0.001
+	MieAsymmetry -0.25
+	Rayleigh [0.001 0.0025 0.006]
+	MieScaleHeight 6.91
+	}
+
+	EllipticalOrbit
+	{
+	Period			0.91654339249676584734799482535576
+	SemiMajorAxis	0.943666
+	Eccentricity   	0
+	Inclination		0
+	AscendingNode	0
+	ArgOfPericenter	0
+	MeanAnomaly		0
+	}
+
+	UniformRotation
+	{
+	Period		24.48
+	Inclination	22
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?Almea"
+	Albedo            0.3
+}
+# The Almean year is 328 days long (the Verdurian calendar has 12 months of 27 or 28 days, and a leap day, Kasten, is inserted every five years).
+# The Almean day is slightly longer than ours.
+# Almea’s day is actually a little less than half an hour longer than ours— that is, 2% longer.

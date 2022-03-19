@@ -1,4 +1,4 @@
-"Ënomai"
+"Ënomai:Enomai"
 {
 	RA 210
 	Dec -25.460317
@@ -6,4 +6,5 @@
 	SpectralType "G2V" # Only known that it is a type G star per http://www.zompist.com/drill0.htm
 	AbsMag 4.83 # guess
 	Radius 695700 # guess
+	InfoURL "http://www.almeopedia.com/almeo.html?%CBnomai"
 }
