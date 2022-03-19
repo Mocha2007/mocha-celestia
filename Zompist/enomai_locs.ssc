@@ -93,6 +93,11 @@ Location "Funky" "Enomai/Almea" {
 	Size			15
 	Type			"City"
 }
+Location "Kalimantan" "Enomai/Almea" {
+	LongLat			[-49 -38 0]
+	Size			75
+	Type			"MA" # Macula - using this as a proxy for forest
+}
 Location "Žésifo" "Enomai/Almea" {
 	LongLat			[-45.7 -37.3 0]
 	Size			15
