@@ -128,3 +128,8 @@ Location "Kebri" "Enomai/Almea" {
 	Size			300
 	Type			"IN"
 }
+Location "Kara Desert" "Enomai/Almea" {
+	LongLat			[-41 -34 0]
+	Size			250
+	Type			"FA" # Facula - using this as a proxy for desert
+}
