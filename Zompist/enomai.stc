@@ -1,0 +1,9 @@
+"Ënomai"
+{
+	RA 210
+	Dec -25.460317
+	Distance 12
+	SpectralType "G2V" # Only known that it is a type G star per http://www.zompist.com/drill0.htm
+	AbsMag 4.83 # guess
+	Radius 695700 # guess
+}
