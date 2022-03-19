@@ -74,11 +74,6 @@ Location "Eretald" "Enomai/Almea" {
 	Size			1000
 	Type			"RE"
 }
-Location "Kebri" "Enomai/Almea" {
-	LongLat			[-41 -30 0]
-	Size			300
-	Type			"IN"
-}
 Location "Dheknam" "Enomai/Almea" {
 	LongLat			[-25 -40 0]
 	Size			2000
@@ -86,3 +81,8 @@ Location "Dheknam" "Enomai/Almea" {
 }
 # regions of Eretald
 # http://www.almeopedia.com/allo/Eretald-CP-Big.jpg
+Location "Kebri" "Enomai/Almea" {
+	LongLat			[-41 -30 0]
+	Size			300
+	Type			"IN"
+}
