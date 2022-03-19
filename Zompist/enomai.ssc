@@ -19,7 +19,7 @@
 	Albedo            0.2
 }
 
-"Išire:Isire:Enomai II" "Enomai"
+"Išire:Enomai II" "Enomai"
 {
 	Texture "mercury.*"
 	Radius 6000
@@ -76,7 +76,7 @@
 # The Almean day is slightly longer than ours.
 # Almea’s day is actually a little less than half an hour longer than ours— that is, 2% longer.
 
-"Vlerëi:Vlerei:Enomai IV" "Enomai"
+"Vlerëi:Enomai IV" "Enomai"
 {
 	Texture "mercury.*"
 	Radius 4700 # appx http://www.almeopedia.com/almeo.html?%CBnomai
@@ -96,7 +96,7 @@
 	Albedo            0.7
 }
 
-"Hírumor:Hirumor:Enomai V" "Enomai"
+"Hírumor:Enomai V" "Enomai"
 {
 	Texture "hirumor.*"
 	Radius 60000 # a gas giant; but smaller than Imiri

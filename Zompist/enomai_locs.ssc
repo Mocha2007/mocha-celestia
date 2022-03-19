@@ -1,64 +1,64 @@
 # please sort by long (low-high) then lat (high-low)
 # continents
 Location "Ereláe" "Enomai/Almea" {
-	LongLat			[-90 -45 0]
-	Size			2300 # radius, km, appx.
+	LongLat			[-90 -20 0]
+	Size			5000 # radius, km, appx.
 	Type			"TA"
 }
 Location "Lebiscuri" "Enomai/Almea" {
-	LongLat			[22.5 45 0]
-	Size			2000
+	LongLat			[20 40 0]
+	Size			4000
 	Type			"TA"
 }
 Location "Arcél" "Enomai/Almea" {
-	LongLat			[67.5 -25 0]
-	Size			1500
+	LongLat			[70 -25 0]
+	Size			3000
 	Type			"TA"
 }
 Location "Curym" "Enomai/Almea" {
-	LongLat			[135 20 0]
-	Size			2000
+	LongLat			[140 10 0]
+	Size			4000
 	Type			"TA"
 }
 # major islands
 Location "Palthuknen" "Enomai/Almea" {
-	LongLat			[-122.5 70 0]
-	Size			800
+	LongLat			[-80 70 0]
+	Size			1500
 	Type			"IN"
 }
 Location "Neinuoi" "Enomai/Almea" {
 	LongLat			[140 -25 0]
-	Size			800
+	Size			1500
 	Type			"IN"
 }
 # seas
 Location "Nezië Zëi" "Enomai/Almea" {
-	LongLat			[-157.5 -45 0]
-	Size			2000
+	LongLat			[-155 -20 0]
+	Size			4000
 	Type			"ME"
 }
 Location "Estë Zëi" "Enomai/Almea" {
 	LongLat			[-90 45 0]
-	Size			2000
+	Size			4000
 	Type			"ME"
 }
 Location "Zëi Ahuenai" "Enomai/Almea" {
 	LongLat			[-90 -70 0]
-	Size			1000
+	Size			2000
 	Type			"ME"
 }
 Location "Zëi Mišicama" "Enomai/Almea" {
 	LongLat			[0 0 0]
-	Size			2000
+	Size			4000
 	Type			"ME"
 }
 Location "Zëi Escrín" "Enomai/Almea" {
 	LongLat			[90 45 0]
-	Size			2000
+	Size			4000
 	Type			"ME"
 }
 Location "Zëi Uytaë" "Enomai/Almea" {
 	LongLat			[90 -70 0]
-	Size			1000
+	Size			2000
 	Type			"ME"
 }
