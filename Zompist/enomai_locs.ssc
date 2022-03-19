@@ -88,11 +88,6 @@ Location "Bérunor" "Enomai/Almea" {
 	Size			45
 	Type			"LC"
 }
-Location "Zandorini" "Enomai/Almea" {
-	LongLat			[-47.25 -32.4 0]
-	Size			10
-	Type			"IN"
-}
 Location "Žésifo" "Enomai/Almea" {
 	LongLat			[-45.7 -37.3 0]
 	Size			15
@@ -102,6 +97,11 @@ Location "Verduria City" "Enomai/Almea" {
 	LongLat			[-45.4 -33.24 0]
 	Size			15
 	Type			"City"
+}
+Location "Zandorini" "Enomai/Almea" {
+	LongLat			[-45.3 -32.3 0]
+	Size			20
+	Type			"IN"
 }
 Location "Flora" "Enomai/Almea" {
 	LongLat			[-44.5 -31.4 0]
