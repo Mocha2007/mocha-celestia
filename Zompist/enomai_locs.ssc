@@ -66,17 +66,17 @@ Location "Zëi Uytaë" "Enomai/Almea" {
 # regions of Erelae
 Location "Bekkai" "Enomai/Almea" {
 	LongLat			[-70 5 0]
-	Size			1000
+	Size			2000
 	Type			"RE"
 }
 Location "Eretald" "Enomai/Almea" {
-	LongLat			[-45 -40 0]
-	Size			500
+	LongLat			[-45 -35 0]
+	Size			1000
 	Type			"RE"
 }
 Location "Dheknam" "Enomai/Almea" {
 	LongLat			[-25 -40 0]
-	Size			1000
+	Size			2000
 	Type			"RE"
 }
 # regions of Eretald
