@@ -88,6 +88,11 @@ Location "Bérunor" "Enomai/Almea" {
 	Size			45
 	Type			"LC"
 }
+Location "Zandorini" "Enomai/Almea" {
+	LongLat			[-47.25 -32.4 0]
+	Size			10
+	Type			"IN"
+}
 Location "Žésifo" "Enomai/Almea" {
 	LongLat			[-45.7 -37.3 0]
 	Size			15
