@@ -39,7 +39,7 @@
 	Albedo            0.2
 }
 
-"Almea:Namei III" "Enomai"
+"Almea:Enomai III" "Enomai"
 {
 	Texture "almea.ctx"
 	Radius 5320 # http://www.almeopedia.com/almeo.html?%CBnomai
