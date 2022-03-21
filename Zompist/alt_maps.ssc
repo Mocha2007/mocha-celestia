@@ -1,0 +1,4 @@
+AltSurface "Climate" "Enomai/Almea"
+{
+	Texture "almea_climate.*"
+}
