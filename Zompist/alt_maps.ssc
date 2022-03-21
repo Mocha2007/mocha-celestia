@@ -14,3 +14,7 @@ AltSurface "Race" "Enomai/Almea"
 {
 	Texture "almea_race.*"
 }
+AltSurface "Verdurian" "Enomai/Almea"
+{
+	Texture "almea_verdurian.*"
+}
