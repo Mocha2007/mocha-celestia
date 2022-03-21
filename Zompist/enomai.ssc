@@ -42,6 +42,7 @@
 "Almea:Enomai III" "Enomai"
 {
 	Texture "almea.ctx"
+	# OverlayTexture "mercuryscale.png"
 	Radius 5320 # http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
 
