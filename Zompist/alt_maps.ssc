@@ -1,3 +1,7 @@
+AltSurface "Agricultural Areas" "Enomai/Almea"
+{
+	Texture "almea_agro.*"
+}
 AltSurface "Climate" "Enomai/Almea"
 {
 	Texture "almea_climate.*"
