@@ -2,3 +2,7 @@ AltSurface "Climate" "Enomai/Almea"
 {
 	Texture "almea_climate.*"
 }
+AltSurface "Race" "Enomai/Almea"
+{
+	Texture "almea_race.*"
+}
