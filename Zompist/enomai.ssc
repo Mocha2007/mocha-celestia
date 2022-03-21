@@ -72,9 +72,74 @@
 	InfoURL "http://www.almeopedia.com/almeo.html?Almea"
 	Albedo            0.3
 }
+
 # The Almean year is 328 days long (the Verdurian calendar has 12 months of 27 or 28 days, and a leap day, Kasten, is inserted every five years).
 # The Almean day is slightly longer than ours.
 # Almea’s day is actually a little less than half an hour longer than ours— that is, 2% longer.
+# Moon source: visual estimation from http://www.almeopedia.com/allo/Almea-moons.jpg
+# (5320 / 6371)**3 = 0.5822534649074486 earth masses
+# Almea has three moons, none as large as ours.
+
+"Naunai:Almea I" "Enomai/Almea"
+{
+	Texture "mercury.*"
+	Radius 8 # Estimate based on the diagram
+	Class "minormoon"
+
+	EllipticalOrbit
+	{
+	Period			6.63 # "and has a period of just 6.5 days."
+	SemiMajorAxis	125000
+	}
+
+	UniformRotation
+	{
+	Period		159.12 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
+	Albedo            0.2
+}
+
+"Iliacáš:Almea II" "Enomai/Almea"
+{
+	Texture "mars.*"
+	Radius 600 # "It has about 2/3 of the radius of Iliažë,"
+	Class "moon"
+
+	EllipticalOrbit
+	{
+	Period			17.34 # "Its period is a little shorter than 28 Almean days,"
+	SemiMajorAxis	238000
+	Eccentricity   	0.1 # visual inspection
+	}
+
+	UniformRotation
+	{
+	Period		416.16 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
+	Albedo            0.2
+}
+
+"Iliažë:Almea III" "Enomai/Almea"
+{
+	Texture "mercury.*"
+	Radius 900 # appears to be exact, based on the visual comparison
+	Class "moon"
+
+	EllipticalOrbit
+	{
+	Period			28 # "Its period is a little shorter than 28 Almean days,"
+	SemiMajorAxis	327000
+	}
+
+	UniformRotation
+	{
+	Period		672 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
+	Albedo            0.2
+}
 
 "Vlerëi:Enomai IV" "Enomai"
 {
