@@ -165,7 +165,7 @@
 "Hírumor:Enomai V" "Enomai"
 {
 	Texture "hirumor.*"
-	Radius 60000 # a gas giant; but smaller than Imiri
+	Radius 60000 # see note below
 	Class "planet"
 
 	EllipticalOrbit
@@ -180,6 +180,89 @@
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
 	Albedo            0.5
+}
+# in order for the visual image of the orbits to match up with the orbital periods,
+# Hirumor MUST be roughly the size and mass of Saturn
+# Thus I give an estimate of 150 earths, which is what these calculations assume.
+
+"Mihel:Hírumor I" "Enomai/Hírumor"
+{
+	Texture "io.*"
+	Radius 1800 # ~Io
+	Class "moon"
+
+	EllipticalOrbit
+	{
+	Period			1.75
+	SemiMajorAxis	326000
+	}
+
+	UniformRotation
+	{
+	Period		42 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
+	Albedo            0.6
+}
+
+"Balmova:Hírumor II" "Enomai/Hírumor"
+{
+	Texture "europa.*"
+	Radius 1600 # ~Europa
+	Class "moon"
+
+	EllipticalOrbit
+	{
+	Period			3.5
+	SemiMajorAxis	517000
+	}
+
+	UniformRotation
+	{
+	Period		84 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
+	Albedo            0.7
+}
+
+"Punče:Hírumor III" "Enomai/Hírumor"
+{
+	Texture "ganymede.*"
+	Radius 2600 # ~Ganymede
+	Class "moon"
+
+	EllipticalOrbit
+	{
+	Period			7.5
+	SemiMajorAxis	860000
+	}
+
+	UniformRotation
+	{
+	Period		180 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
+	Albedo            0.4
+}
+
+"Catum:Hírumor IV" "Enomai/Hírumor"
+{
+	Texture "callisto.*"
+	Radius 2400 # ~Callisto
+	Class "moon"
+
+	EllipticalOrbit
+	{
+	Period			15
+	SemiMajorAxis	1365000
+	}
+
+	UniformRotation
+	{
+	Period		360 # 1:1
+	}
+	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
+	Albedo            0.2
 }
 
 "Imiri:Enomai VI" "Enomai"
