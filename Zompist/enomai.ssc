@@ -103,7 +103,7 @@
 
 "Iliacáš:Almea II" "Enomai/Almea"
 {
-	Texture "mars.*"
+	Texture "iliacas.*"
 	Radius 600 # "It has about 2/3 of the radius of Iliažë,"
 	Class "moon"
 
@@ -124,7 +124,7 @@
 
 "Iliažë:Almea III" "Enomai/Almea"
 {
-	Texture "mercury.*"
+	Texture "iliaze.*"
 	Radius 900 # appears to be exact, based on the visual comparison
 	Class "moon"
 
