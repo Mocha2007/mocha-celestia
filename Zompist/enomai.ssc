@@ -117,6 +117,7 @@
 	UniformRotation
 	{
 	Period		416.16 # 1:1
+	MeridianAngle	180
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
 	Albedo            0.2
@@ -137,6 +138,7 @@
 	UniformRotation
 	{
 	Period		672 # 1:1
+	MeridianAngle	180
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
 	Albedo            0.2
