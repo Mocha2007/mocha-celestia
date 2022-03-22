@@ -19,7 +19,7 @@
 	Albedo            0.2
 }
 
-"Išire:Enomai II" "Enomai"
+"Išire:Enomai II" "Enomai" # genitive of Išira
 {
 	Texture "mercury.*"
 	Radius 6000
