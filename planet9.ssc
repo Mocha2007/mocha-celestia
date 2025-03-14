@@ -4,7 +4,7 @@
 	Color		[.75 .8 1]
 	HazeColor	[.55 .9 .9]
 	HazeDensity	.275
-	Radius		10200	# Est. based on similar (4.4 earth mass) exoplanets
+	Radius		11895	# Est. based on similar (4.4 earth mass) exoplanets
 
 	EllipticalOrbit
 	{
