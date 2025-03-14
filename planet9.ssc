@@ -4,16 +4,17 @@
 	Color		[.75 .8 1]
 	HazeColor	[.55 .9 .9]
 	HazeDensity	.275
-	Radius		15000	# Est. based on similar (6.3 earth mass) exoplanets
+	Radius		10200	# Est. based on similar (4.4 earth mass) exoplanets
 
 	EllipticalOrbit
 	{
-	   Period			16725
-	   SemiMajorAxis	460 # page 11 https://arxiv.org/pdf/2110.13117.pdf
-	   Eccentricity		.2444 # ditto
-	   Inclination		16 # https://arxiv.org/abs/2108.09868
-	   AscendingNode	94
-	   LongOfPericenter	235 # +/- 12
+		# 2025 https://iopscience.iop.org/article/10.3847/1538-4357/ad98f6
+	   Period			4939
+	   SemiMajorAxis	290 # 2025
+	   Eccentricity		.29 # ditto
+	   Inclination		6.8 # ditto
+	   AscendingNode	98.6
+	   LongOfPericenter	244
        MeanLongitude	-17	#? "The favored location of Planet Nine is a right ascension of 30° to 50° and a declination of −20° to 20°."
 	}
 
