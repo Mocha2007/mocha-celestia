@@ -1,0 +1,25 @@
+"Vulcan" "Sun"
+{
+	Texture "mercury.*"
+	Radius 2440
+	Class "planet"
+	Color [0.8 0.8 0.8]
+
+	EllipticalOrbit #perfect
+	{
+	Period			0.07
+	SemiMajorAxis	0.17 # https://upload.wikimedia.org/wikipedia/commons/8/8f/Planet-Vulcan_1846_003790.jpg (dist. in miles)
+	Eccentricity   	0
+	Inclination		0
+	AscendingNode	0
+	ArgOfPericenter	0
+	MeanAnomaly		0
+	}
+
+	UniformRotation
+	{
+	Period		614.4488794195314	#1:1
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)"
+	Albedo            0.06
+}
