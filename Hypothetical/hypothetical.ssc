@@ -1,16 +1,16 @@
 "Vulcan" "Sun"
 {
 	Texture "mercury.*"
-	Radius 2440
+	Radius 1200 # 1.9e22 kg, assuming a density of 2.5 g/cm^3 implies a radius around 1200 km
 	Class "planet"
 
 	EllipticalOrbit #perfect
 	{
-	Period			0.07
-	SemiMajorAxis	0.17 # https://upload.wikimedia.org/wikipedia/commons/8/8f/Planet-Vulcan_1846_003790.jpg (dist. in miles)
-	Eccentricity   	0
-	Inclination		0
-	AscendingNode	0
+	Period			0.0528
+	SemiMajorAxis	0.1427 # https://nineplanets.org/hypothetical-planets/#moon2
+	Eccentricity   	0.25 # "enormous" is ambiguous, but surely implies > mercury
+	Inclination		12.17
+	AscendingNode	12.98
 	ArgOfPericenter	0
 	MeanAnomaly		0
 	}
@@ -21,6 +21,25 @@
 	}
 	InfoURL "https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)"
 	Albedo            0.06
+}
+
+"Neith:Venus I" "Sol/Venus"
+{
+	Texture "asteroid.*"
+	Radius 1500 # Cassini: radius is 25%
+
+	EllipticalOrbit {	
+		Period            11.125 # J H Lambert
+		SemiMajorAxis     196708 # implied by period
+		Eccentricity      0
+		Inclination       90 # Fortana's observations suggest high inclination
+		AscendingNode     0
+		LongOfPericenter  0
+		MeanLongitude     0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Neith_(hypothetical_moon)"
+
+	Albedo            0.5
 }
 
 "Antichthon" "Sol"
@@ -67,6 +86,7 @@
 
 	BodyFrame { EclipticJ2000 {} }
 	CustomRotation "earth-p03lp"
+	InfoURL "https://en.wikipedia.org/wiki/Counter-Earth"
 
 	Albedo            0.30
 }
@@ -85,6 +105,7 @@
 		LongOfPericenter  102.947
 		MeanLongitude     280.464
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Themis_(hypothetical_moon)"
 
 	Albedo            0.5
 }
