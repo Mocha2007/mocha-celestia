@@ -3,7 +3,6 @@
 	Texture "mercury.*"
 	Radius 2440
 	Class "planet"
-	Color [0.8 0.8 0.8]
 
 	EllipticalOrbit #perfect
 	{
@@ -22,4 +21,70 @@
 	}
 	InfoURL "https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)"
 	Albedo            0.06
+}
+
+"Antichthon" "Sol"
+{
+	Texture "earth.*"
+	NightTexture "earthnight.*"
+	
+	SpecularTexture "earth-spec.*"
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+	Radius 6378.140  # equatorial
+	Oblateness 0.0034
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.*"
+		CloudShadowDepth 1.0
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+
+	EllipticalOrbit {	
+		Period            1.0000
+		SemiMajorAxis     1.0000
+		Eccentricity      0.0167
+		Inclination       0.0001
+		AscendingNode     348.739
+		LongOfPericenter  102.947
+		MeanLongitude     280.464
+	}
+
+	BodyFrame { EclipticJ2000 {} }
+	CustomRotation "earth-p03lp"
+
+	Albedo            0.30
+}
+
+"Themis:Chiron:Saturn IX" "Sol/Saturn"
+{
+	Texture "asteroid.*"
+	Radius 96
+
+	EllipticalOrbit {	
+		Period            20.85
+		SemiMajorAxis     1457000
+		Eccentricity      0.23
+		Inclination       39.1
+		AscendingNode     348.739
+		LongOfPericenter  102.947
+		MeanLongitude     280.464
+	}
+
+	Albedo            0.5
 }
