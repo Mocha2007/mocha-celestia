@@ -3,7 +3,7 @@
 # please sort by provisional designation (ie. 2007 OR 10)
 #https://ssd.jpl.nasa.gov/sbdb.cgi
 #http://www.csgnetwork.com/juliandatetime.html
-"2002 MS4:2002 MS4" "Sol" {
+"(307261) 2002 MS4:2002 MS4" "Sol" {
 
 	Class "dwarfplanet" 
 	Texture "asteroid.jpg" 
@@ -21,6 +21,41 @@
 	}
 
 	Albedo 0.051
+}
+
+"174567 Varda:2003 MW12:Varda" "Sol" {
+
+	Class "dwarfplanet" 
+	Texture "asteroid.jpg" 
+	Radius  370
+
+	EllipticalOrbit {
+		Epoch				2459000.5	# 31 May 2020
+		Period				313.12
+		SemiMajorAxis		46.110
+		Eccentricity		0.14315
+		Inclination			21.511
+		AscendingNode		184.151
+		ArgOfPericenter		180.072
+		MeanAnomaly			275.208
+	}
+
+	Albedo 0.099
+}
+"Ilmarë" "Sol/174567 Varda" {
+
+	Class	"moon" 
+	Texture	"asteroid.jpg"
+	Radius	178
+
+	EllipticalOrbit {
+		Period				5.75058
+		SemiMajorAxis		4809
+		Eccentricity		0.0181
+		Inclination			101.0
+	}
+
+	Albedo 0.085
 }
 
 "120347 Salacia:2004 SB60:Salacia" "Sol" {
@@ -110,7 +145,7 @@
 	Albedo 0.08
 }
 
-"Gonggong:2007 OR10" "Sol" {
+"225088 Gonggong:2007 OR10:Gonggong" "Sol" {
 
 	Class	"dwarfplanet" 
 	Texture	"asteroid.jpg"
