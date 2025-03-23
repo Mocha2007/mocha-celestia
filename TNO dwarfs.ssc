@@ -243,3 +243,23 @@
 
 	Albedo 0.131
 }
+
+"2018 VG18" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	328
+
+	EllipticalOrbit {
+		Epoch				2460000.5	# 25 Feb 2023
+		Period				737.01
+		SemiMajorAxis		81.628
+		Eccentricity		0.5301
+		Inclination			24.292
+		AscendingNode		245.325
+		ArgOfPericenter		16.865
+		MeanAnomaly			157.653
+	}
+
+	Albedo 0.12
+}
