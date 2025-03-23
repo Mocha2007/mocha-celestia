@@ -22,6 +22,45 @@
 
 	Albedo 0.051
 }
+"(55637) 2002 UX25:2002 UX25" "Sol" {
+
+	Class "dwarfplanet" 
+	Texture "asteroid.jpg" 
+	Radius  332.5
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				276.95
+		SemiMajorAxis		42.488
+		Eccentricity		0.1413
+		Inclination			19.484
+		AscendingNode		204.68
+		ArgOfPericenter		279.00
+		MeanAnomaly			295.71
+	}
+
+	Albedo 0.107
+}
+
+"(208996) 2003 AZ84:2003 AZ84" "Sol" {
+
+	Class "dwarfplanet" 
+	Texture "asteroid.jpg" 
+	Radius  386
+
+	EllipticalOrbit {
+		Epoch				2458600.5	# 27 Apr 2019
+		Period				246.96
+		SemiMajorAxis		39.362
+		Eccentricity		0.183
+		Inclination			13.596
+		AscendingNode		252.202
+		ArgOfPericenter		15.211
+		MeanAnomaly				232.611
+	}
+
+	Albedo 0.097
+}
 
 "174567 Varda:2003 MW12:Varda" "Sol" {
 
@@ -100,7 +139,7 @@
 	Albedo 0.035
 }
 
-"2005 RN43:(145452) 2005 RN43" "Sol" {
+"(145452) 2005 RN43:2005 RN43" "Sol" {
 
 	Class	"dwarfplanet" 
 	Texture	"asteroid.jpg"
