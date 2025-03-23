@@ -3,9 +3,9 @@
 	RA 210
 	Dec -25.460317
 	Distance 12
-	SpectralType "G5V" # Only known that it is a type G star per http://www.zompist.com/drill0.htm
-	# luminosity estimated from the fact almea is 0.943666 au away, and the inverse square law
+	SpectralType "G5V"
 	AbsMag 5.16 # from spectral type
-	Radius 679700 # from spectral type
+	Radius 678000 # from spectral type
 	InfoURL "http://www.almeopedia.com/almeo.html?%CBnomai"
 }
+# see https://mocha2007.github.io/blog/blog.html?i=50

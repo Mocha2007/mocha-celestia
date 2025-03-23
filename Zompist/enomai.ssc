@@ -4,16 +4,17 @@
 	Texture "mercury.*"
 	Radius 2900 # appx http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
+	Color [1.0 0.9 0.9]
 
 	EllipticalOrbit
 	{
-	Period			0.31 # 112 almean days
-	SemiMajorAxis	0.46
+	Period			0.313 # 112 almean days
+	SemiMajorAxis	0.458
 	}
 
 	UniformRotation
 	{
-	Period		2741.76	# 1:1
+	Period		2744	# 1:1
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=vereon"
 	Albedo            0.2
@@ -22,21 +23,22 @@
 "Išire:Enomai II" "Enomai" # genitive of Išira
 {
 	Texture "mercury.*"
-	Radius 6000
+	Radius 4700
 	Class "planet"
+	Color [1.0 1.0 1.0]
 
 	EllipticalOrbit
 	{
-	Period			0.61 # 219 almean days
-	SemiMajorAxis	0.72
+	Period			0.612 # 219 almean days
+	SemiMajorAxis	0.716
 	}
 
 	UniformRotation
 	{
-	Period		5361.12	# 1:1
+	Period		5366
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?I%u0161ira"
-	Albedo            0.2
+	Albedo            0.7
 }
 
 "Almea:Enomai III" "Enomai"
@@ -45,6 +47,7 @@
 	# OverlayTexture "mercuryscale.png"
 	Radius 5320 # http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
+	Color [0.6 0.8 1.0]
 
 	Atmosphere {
 	Height 100
@@ -56,8 +59,8 @@
 
 	EllipticalOrbit
 	{
-	Period			0.91654339249676584734799482535576
-	SemiMajorAxis	0.943666
+	Period			0.928
+	SemiMajorAxis	0.938
 	Eccentricity   	0
 	Inclination		0
 	AscendingNode	0
@@ -67,7 +70,7 @@
 
 	UniformRotation
 	{
-	Period		24.48
+	Period		24.5
 	Inclination	22
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?Almea"
@@ -84,13 +87,14 @@
 "Naunai:Almea I" "Enomai/Almea"
 {
 	Texture "mercury.*"
-	Radius 8 # Estimate based on the diagram
+	Radius 6.4 # Estimate based on the diagram
 	Class "minormoon"
 
 	EllipticalOrbit
 	{
 	Period			6.63 # "and has a period of just 6.5 days."
-	SemiMajorAxis	125000
+	SemiMajorAxis	127000
+	Eccentricity   	0.07 # visual inspection
 	}
 
 	UniformRotation
@@ -98,20 +102,20 @@
 	Period		159.12 # 1:1
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
-	Albedo            0.2
+	Albedo            0.15
 }
 
 "Iliacáš:Almea II" "Enomai/Almea"
 {
 	Texture "iliacas.*"
-	Radius 600 # "It has about 2/3 of the radius of Iliažë,"
+	Radius 643 # "It has about 2/3 of the radius of Iliažë,"
 	Class "moon"
 
 	EllipticalOrbit
 	{
 	Period			17.34 # "Its period is a little shorter than 28 Almean days,"
-	SemiMajorAxis	238000
-	Eccentricity   	0.1 # visual inspection
+	SemiMajorAxis	241000
+	Eccentricity   	0.3 # visual inspection
 	}
 
 	UniformRotation
@@ -120,7 +124,7 @@
 	MeridianAngle	180
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
-	Albedo            0.2
+	Albedo            0.15
 }
 
 "Iliažë:Almea III" "Enomai/Almea"
@@ -131,17 +135,18 @@
 
 	EllipticalOrbit
 	{
-	Period			28 # "Its period is a little shorter than 28 Almean days,"
-	SemiMajorAxis	327000
+	Period			28.6 # "Its period is a little shorter than 28 Almean days,"
+	SemiMajorAxis	335000
+	Eccentricity   	0.26 # visual inspection
 	}
 
 	UniformRotation
 	{
-	Period		672 # 1:1
+	Period		686 # 1:1
 	MeridianAngle	180
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?searchbox=Moons"
-	Albedo            0.2
+	Albedo            0.15
 }
 
 "Vlerëi:Enomai IV" "Enomai"
@@ -149,11 +154,12 @@
 	Texture "mercury.*"
 	Radius 4700 # appx http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
+	Color [0.6 0.8 1.0]
 
 	EllipticalOrbit
 	{
 	Period			1.475 # 528 almean days
-	SemiMajorAxis	1.296
+	SemiMajorAxis	1.287
 	}
 
 	UniformRotation
@@ -161,24 +167,26 @@
 	Period		29
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?Vler%EBi"
-	Albedo            0.7
+	Albedo            0.3
 }
 
 "Hírumor:Enomai V" "Enomai"
 {
 	Texture "hirumor.*"
-	Radius 60000 # see note below
+	Radius 70000 # see note below
+	Oblateness 0.038
 	Class "planet"
+	Color [0.6 1.0 0.75]
 
 	EllipticalOrbit
 	{
 	Period			8.885 # 9.7 almean years
-	SemiMajorAxis	4.290
+	SemiMajorAxis	4.30
 	}
 
 	UniformRotation
 	{
-	Period		10
+	Period		8.3
 	}
 	InfoURL "http://www.almeopedia.com/almeo.html?H%EDrumor"
 	Albedo            0.5
@@ -196,7 +204,7 @@
 	EllipticalOrbit
 	{
 	Period			1.75
-	SemiMajorAxis	326000
+	SemiMajorAxis	780000
 	}
 
 	UniformRotation
@@ -216,7 +224,7 @@
 	EllipticalOrbit
 	{
 	Period			3.5
-	SemiMajorAxis	517000
+	SemiMajorAxis	1210000
 	}
 
 	UniformRotation
@@ -236,7 +244,7 @@
 	EllipticalOrbit
 	{
 	Period			7.5
-	SemiMajorAxis	860000
+	SemiMajorAxis	2040000
 	}
 
 	UniformRotation
@@ -256,7 +264,7 @@
 	EllipticalOrbit
 	{
 	Period			15
-	SemiMajorAxis	1365000
+	SemiMajorAxis	3230000
 	}
 
 	UniformRotation
@@ -272,11 +280,12 @@
 	Texture "hirumor.*"
 	Radius 70000 # "the largest"
 	Class "planet"
+	Color [0.8 1.0 0.8]
 
 	EllipticalOrbit
 	{
 	Period			21.80 # 23.8 almean years
-	SemiMajorAxis	7.805
+	SemiMajorAxis	7.82
 	}
 
 	UniformRotation
@@ -292,11 +301,12 @@
 	Texture "saturn.*"
 	Radius 60000 # see Hirumor
 	Class "planet"
+	Color [1.0 0.9 0.6]
 
 	EllipticalOrbit
 	{
 	Period			56.79 # 62 almean years
-	SemiMajorAxis	14.78
+	SemiMajorAxis	14.8
 	}
 
 	UniformRotation
