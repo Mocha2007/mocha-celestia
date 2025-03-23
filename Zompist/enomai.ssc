@@ -48,6 +48,7 @@
 	Radius 5320 # http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
 	Color [0.6 0.8 1.0]
+	Oblateness 0.005
 
 	Atmosphere {
 	Height 100
@@ -155,6 +156,7 @@
 	Radius 4700 # appx http://www.almeopedia.com/almeo.html?%CBnomai
 	Class "planet"
 	Color [0.6 0.8 1.0]
+	Oblateness 0.005
 
 	EllipticalOrbit
 	{
@@ -174,7 +176,7 @@
 {
 	Texture "hirumor.*"
 	Radius 70000 # see note below
-	Oblateness 0.038
+	Oblateness 0.038 # assuming 6 mjup
 	Class "planet"
 	Color [0.6 1.0 0.75]
 
@@ -281,6 +283,7 @@
 	Radius 70000 # "the largest"
 	Class "planet"
 	Color [0.8 1.0 0.8]
+	Oblateness 0.034 # assuming 7 mjup
 
 	EllipticalOrbit
 	{
@@ -302,6 +305,7 @@
 	Radius 60000 # see Hirumor
 	Class "planet"
 	Color [1.0 0.9 0.6]
+	Oblateness 0.09 # saturn
 
 	EllipticalOrbit
 	{
