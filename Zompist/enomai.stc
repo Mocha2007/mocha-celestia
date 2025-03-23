@@ -2,10 +2,10 @@
 {
 	RA 210
 	Dec -25.460317
-	Distance 12
+	Distance 120
 	SpectralType "G5V"
-	AbsMag 5.16 # from spectral type
-	Radius 678000 # from spectral type
+	AbsMag 4.97
+	Radius 678000
 	InfoURL "http://www.almeopedia.com/almeo.html?%CBnomai"
 }
 # see https://mocha2007.github.io/blog/blog.html?i=50
