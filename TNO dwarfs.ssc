@@ -1,5 +1,6 @@
 # the only TNOs builtin are
 # pluto, eris, makemake, haumea, orcus, quaoar, ixion, varuna, 55565 2002 AW197, 2004 XR190, 90377 Sedna
+# please sort by provisional designation (ie. 2007 OR 10)
 #https://ssd.jpl.nasa.gov/sbdb.cgi
 #http://www.csgnetwork.com/juliandatetime.html
 "2002 MS4:2002 MS4" "Sol" {
@@ -107,6 +108,26 @@
 	}
 
 	Albedo 0.08
+}
+
+"Gonggong:2007 OR10" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	615
+
+	EllipticalOrbit {
+		Epoch				2459200.5	# 17 Dec 2020
+		Period				554.37
+		SemiMajorAxis		67.485
+		Eccentricity		0.49943
+		Inclination			30.6273
+		AscendingNode		336.8573
+		ArgOfPericenter		207.6675
+		MeanAnomaly			106.496
+	}
+
+	Albedo 0.14
 }
 
 "2013 FY27" "Sol" {
