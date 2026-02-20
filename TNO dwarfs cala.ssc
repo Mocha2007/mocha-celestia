@@ -16,6 +16,10 @@ modify "Aya" "Sol" {
 	Class "dwarfplanet"
 }
 
+modify "Chaos" "Sol" {
+	Class "dwarfplanet" 
+}
+
 modify "Chiminigagua" "Sol" {
 	Class "dwarfplanet" 
 }
@@ -29,6 +33,10 @@ modify "Gǃkúnǁʼhòmdímà" "Sol" {
 }
 
 modify "Goibniu" "Sol" {
+	Class "dwarfplanet" 
+}
+
+modify "Huya" "Sol" {
 	Class "dwarfplanet" 
 }
 
@@ -88,6 +96,26 @@ modify "Xewioso" "Sol" {
 	Albedo 0.07
 }
 
+"(469372) 2001 QF298:2001 QF298" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	204.1
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				245.82
+		SemiMajorAxis		39.241
+		Eccentricity		0.11429
+		Inclination			22.408
+		AscendingNode		164.24
+		ArgOfPericenter		41.215
+		MeanAnomaly			154.29
+	}
+
+	Albedo 0.071
+}
+
 "(84522) 2002 TC302:2002 TC302" "Sol" {
 
 	Class	"dwarfplanet" 
@@ -108,6 +136,26 @@ modify "Xewioso" "Sol" {
 	Albedo 0.147
 }
 
+"(84719) 2002 VR128:2002 VR128" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	224.25
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 13 Jan 2016
+		Period				246.61
+		SemiMajorAxis		39.325
+		Eccentricity		0.26257
+		Inclination			14.040
+		AscendingNode		23.152
+		ArgOfPericenter		287.87
+		MeanAnomaly			73.453
+	}
+
+	Albedo 0.052
+}
+
 "(612533) 2002 XV93:2002 XV93" "Sol" {
 
 	Class	"dwarfplanet" 
@@ -126,6 +174,26 @@ modify "Xewioso" "Sol" {
 	}
 
 	Albedo 0.040
+}
+
+"(120132) 2003 FY128:2003 FY128" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	230
+
+	EllipticalOrbit {
+		Epoch				2457400.5	# 27 Apr 2019
+		Period				351.53
+		SemiMajorAxis		49.809
+		Eccentricity		0.25584
+		Inclination			11.757
+		AscendingNode		341.68
+		ArgOfPericenter		175.26
+		MeanAnomaly			28.257
+	}
+
+	Albedo 0.079
 }
 
 "(455502) 2003 UZ413:2003 UZ413" "Sol" {
@@ -166,6 +234,46 @@ modify "Xewioso" "Sol" {
 	}
 
 	Albedo 0.151
+}
+
+"(444030) 2004 NT33:2004 NT33" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	211.5
+
+	EllipticalOrbit {
+		Epoch				2458000.5	# 4 Sep 2017
+		Period				286.18
+		SemiMajorAxis		43.426
+		Eccentricity		0.1517
+		Inclination			31.231
+		AscendingNode		240.87
+		ArgOfPericenter		37.400
+		MeanAnomaly			41.709
+	}
+
+	Albedo 0.125
+}
+
+"(175113) 2004 PF115:2004 PF115" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	203.15
+
+	EllipticalOrbit {
+		Epoch				2458600.5	# 27 Apr 2019
+		Period				244.20
+		SemiMajorAxis		39.069
+		Eccentricity		0.06527
+		Inclination			13.346
+		AscendingNode		84.441
+		ArgOfPericenter		87.197
+		MeanAnomaly			167.19
+	}
+
+	Albedo 0.113
 }
 
 "(120348) 2004 TY364:2004 TY364" "Sol" {
@@ -311,6 +419,26 @@ modify "Xewioso" "Sol" {
 	}
 
 	Albedo 0.124
+}
+
+"2012 VP113" "Sol" {
+
+	Class	"dwarfplanet" 
+	Texture	"asteroid.jpg"
+	Radius	225
+
+	EllipticalOrbit {
+		Epoch				2460800.5	# 5 May 2025
+		Period				4246
+		SemiMajorAxis		262.3
+		Eccentricity		0.6931
+		Inclination			24.0563
+		AscendingNode		90.80
+		ArgOfPericenter		293.90
+		MeanAnomaly			24.05
+	}
+
+	Albedo 0.12 # ??? no data
 }
 
 "(523692) 2014 EZ51:2014 EZ51" "Sol" {
